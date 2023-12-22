@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Hecho por María Trapote */
+
+
+body {
+    height: 70vh;
+    background-color: black;
+    color: beige;
+    font-family: 'Parisienne', cursive;
+}
+
+
+h1 {
+    display: grid;
+    place-content: center;
+    margin-top: 8px;
+    text-shadow: 0px 0px 10px white;
+}
+
+.container {
+
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 4px 8px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "foto1 foto2 foto3"
+        "foto4 foto5 foto6"
+        "foto7 foto8 foto9";
+}
+
+.foto1 {
+    grid-area: foto1;
+}
+
+.foto2 {
+    grid-area: foto2;
+}
+
+.foto3 {
+    grid-area: foto3;
+}
+
+.foto4 {
+    grid-area: foto4;
+}
+
+.foto5 {
+    grid-area: foto5;
+}
+
+.foto6 {
+    grid-area: foto6;
+}
+
+.foto7 {
+    grid-area: foto7;
+}
+
+.foto8 {
+    grid-area: foto8;
+}
+
+.foto9 {
+    grid-area: foto9;
+}
+
+
+h2 {
+    display: grid;
+    place-content: center;
+    margin-top: 14px;
+}
+
+
+.container2 {
+    margin-top: 10px;
+    display: grid;
+    margin-left: 10px;
+    margin-right: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 4px 8px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "foto10 foto11 foto12"
+        "foto13 foto14 foto15"
+        "foto16 foto17 foto18"
+        "foto19 foto20 foto21";
+}
+
+.foto10 {
+    grid-area: foto10;
+}
+
+.foto11 {
+    grid-area: foto11;
+}
+
+.foto12 {
+    grid-area: foto12;
+}
+
+.foto13 {
+    grid-area: foto13;
+}
+
+.foto14 {
+    grid-area: foto14;
+}
+
+.foto15 {
+    grid-area: foto15;
+}
+
+.foto16 {
+    grid-area: foto16;
+}
+
+.foto17 {
+    grid-area: foto17;
+}
+
+.foto18 {
+    grid-area: foto18;
+}
+
+.foto19 {
+    grid-area: foto19;
+}
+
+.foto20 {
+    grid-area: foto20;
+}
+
+.foto21 {
+    grid-area: foto21;
+}
